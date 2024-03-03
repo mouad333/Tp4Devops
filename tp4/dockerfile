@@ -1,0 +1,4 @@
+RUN apt-get -y install nginx \
+From nginx
+COPY index.html /usr/share/nginx/html
+EXPOSE 81
